@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en" contextmenu="return false">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <meta name="description" content="E-Store serves a retail-customer base that continues to grow exponentially, offering products that span various categories including Electronics such as smart phones, laptops, subwoofer etc, Clothing, Home Appliances, Fashion bag, Baby Products, makeup and much more. Kilimall continues to expand the mall, with the scope of offerings that will increase in variety, simplicity and convenience.">
+    <meta name="keywords" content="E-Store ,  Books, Online Shopping, Book Store, Magazine, Subscription, Music, CDs, DVDs, Videos, Electronics, Video Games, Computers, Cell Phones, Toys, Games, Apparel, Accessories, Shoes, Jewelry, Watches, Office Products, Sports &amp; Outdoors, Sporting Goods, Baby Products, Health, Personal Care, Beauty, Home, Garden, Bed &amp; Bath, Furniture, Tools, Hardware, Vacuums, Outdoor Living, Automotive Parts, Pet Supplies, Broadband, DSL">
+    <meta name="author" content="Abraham Omondi">
+    <meta http-equiv="refresh" content="">
+    <script src="https://kit.fontawesome.com/7793339219.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/shop.css">
+    <title>E-Store - Affordable Online Shopping</title>
+</head>
+<body contextmenu="return false">
+    <!---header section -->
+    <header>
+        <div class="top-header">
+            <!----
+            <div>
+                <img src="/images/wide-banner.gif" alt="">
+            </div>  -->
+            <div class="other">
+                <b>Language <i class="fa fa-angle-down"></i></b>
+                <b><i class="fa-solid fa-dollar-sign"></i> Currency <i class="fa fa-angle-down"></i></b>
+            </div>
+            <div class="social-icons">
+                <b><i class="fa fa-facebook"></i></b>
+                <b><i class="fa fa-twitter"></i></b>
+                <b><i class="fa fa-instagram"></i></b>
+                <b><i class="fa fa-youtube"></i></b>
+            </div>
+        </div>
+        <div class="middle-header">
+            <div class="logo">
+                <a href="/">
+                    <img src="/images/logo.png" alt="">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="#" class="active">Shop</a></li>
+                <li><a href="#/">About Us</a></li>
+                <li><a href="#/">Contact Us</a></li>
+                <li><a href="#/">Help</a></li>
+            </ul>
+            <div class="other">
+                <li><a href="#"><i class="fa fa-heart"></i>(<span class="badgee">4</span>)</a></li>
+                <li><a href="#/"><i class="far fa-user"></i></a></li>
+                <li class="fa-cart"><a href="#/"><i class="fa fa-shopping-bag"></i>($50.00)</a></li>
+            </div>
+        </div>
+    </header>
+
+    <!-- main body section -->
+    <main>
+        <section class="shop-products-container">
+            <div class="shop-breadcramps">
+                <nav>
+                    <li><a href="/">Home</a></li><i class="fa fa-angle-right"></i>
+                    <li><a href="#">Shop</a></li><i class="fa fa-angle-right"></i>
+                    <li><a href="#">Best Selling</a></li><i class="fa fa-angle-right"></i>
+                </nav>
+            </div>
+            <div class="shop-containers">
+                <!-- left section -->
+                <div class="left-section">
+                    <div class="categories">
+                        <h3><i class="fa fa-list"></i> Categories</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-person"></i> <a href="#/">Men</a></li>
+                            <li><i class="fa-solid fa-person-dress"></i> <a href="#/">Women</a></li>
+                            <li><i class="fa-solid fa-computer"></i> <a href="#/">TV Electronics</a></li>
+                            <li><i class="fa-solid fa-mobile-screen"></i> <a href="#/">Phones</a></li>
+                            <li><i class="fa-solid fa-gem"></i> <a href="#/">Jewelleries</a></li>
+                            <li><i class="fa-solid fa-children"></i> <a href="#/">Kids Wear</a></li>
+                            <li><i class="fa-solid fa-car-burst"></i> <a href="#/">Toys</a></li>
+                            <li><i class="fa-solid fa-book"></i> <a href="#/">Books</a></li>
+                            <li><i class="fa-solid fa-gamepad"></i> <a href="#/">Gaming</a></li>
+                            <li><i class="fa-solid fa-children"></i> <a href="#/">Kids Wear</a></li>
+                            <li><i class="fa-solid fa-car-burst"></i> <a href="#/">Toys</a></li>
+                            <li><i class="fa-solid fa-children"></i> <a href="#/">Kids Wear</a></li>
+                        </ul>
+                    </div>
+                    <div class="shop-price-filter">
+                        <h3 class="heading">Price Filter</h3>
+                        <form action="#" method="get">
+                            <div>
+                                <input type="range" name="range" min="0" class="range">
+                            </div>
+                            <div>
+                                <input type="number" name="min" value="500">&nbsp;<b>To</b>&nbsp;
+                                <input type="number" name="max" value="1000"max="1000000">
+                            </div>
+                            <div>
+                                <button type="submit"><b>SEARCH</b></button>
+                                <button type="reset">CLEAR</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="shop-best-selling">
+
+                    </div>
+                    <div></div>
+                </div>
+                <!--shop product area-->
+                <div class="product-container">
+                    <!-- header section-->
+                    <div class="header">
+                        <div>
+                            <h3 style="font-weight: 500;">Best Selling</h3>
+                        </div>
+                        <div>
+                        </div>
+                        <div class="product-sorting">
+                            <b>Sort By:</b>
+                            <select name="product-sorting">
+                                <option value="">Default Sorting</option>
+                                <option value="">Price: Low To High</option>
+                                <option value="">Price: High To Low</option>
+                                <option value="">Highest Ratings</option>
+                                <option value="">Best Selling</option>
+                                <option value="">New Arrivals</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!--all products -->
+                    <div class="products-area">
+                        <div class="product-info">
+                            <div class="product-meta"><!-- single products-->
+                                <a href="single-product.html">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/fresh-fry.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Fresh Fry 5Ltrs Salad
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 799</b> 
+                                            <del class="regular-price">Ksh 899</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        45%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="/single-product.html">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/infinix-hot-12.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Infinix hot 12 i [2GB + 32GB]
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 9,999</b> 
+                                            <del class="regular-price"> Ksh 15,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        27%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div> 
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="/single-product.html">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/kids-bag-1.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Kids Bag Boys Fashion
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        37%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="/single-product.html">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/iron.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        24%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="new-arrivals-badge">
+                                        NEW
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="/single-product.html">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/mens-hoodie.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        8%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a> 
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/nivea.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        43%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/wireless-speaker.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        27%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a> 
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="/single-product.html">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/sunlight.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Sunlight 3.5kg Lavender
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 299</b> 
+                                            <del class="regular-price">Ksh 579</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        16%
+                                    </div>
+                                </a> 
+                                <div class="wishlist-badge">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/galaxy-a13.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Sunlight 3.5kg Lavender
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 299</b> 
+                                            <del class="regular-price">Ksh 579</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        16%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a> 
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/kids-dress.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Infinix hot 12 i [2GB + 32GB]
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 9,999</b> 
+                                            <del class="regular-price"> Ksh 15,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        31%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/mens-khaki.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Kids Bag Boys Fashion
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        31%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/mens-short-sleeve.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        12%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/mens-loafers.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        8%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a> 
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/nivea.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        43%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/fresh-fry.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Fresh Fry 5Ltrs Salad
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 799</b> 
+                                            <del class="regular-price">Ksh 899</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        45%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/wireless-speaker.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        27%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a> 
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="/single-product.html">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/galaxy-s22-ultra.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Sunlight 3.5kg Lavender
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 299</b> 
+                                            <del class="regular-price">Ksh 579</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        16%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="new-arrivals-badge">
+                                        NEW
+                                    </div>
+                                </a> 
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="/single-product.html">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/kids-bike-1.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Infinix hot 12 i [2GB + 32GB]
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 9,999</b> 
+                                            <del class="regular-price"> Ksh 15,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        31%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="new-arrivals-badge">
+                                        NEW
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/legging.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Kids Bag Boys Fashion
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        31%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/lipstick.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        6%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="new-arrivals-badge">
+                                        NEW
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/mens-khaki.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        8%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="new-arrivals-badge">
+                                        NEW
+                                    </div>
+                                </a> 
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/womens-dresses.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        43%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="new-arrivals-badge">
+                                        NEW
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/womens-handbag.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Fresh Fry 5Ltrs Salad
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 799</b> 
+                                            <del class="regular-price">Ksh 899</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        45%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="new-arrivals-badge">
+                                        NEW
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/dell.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Lorem Ispum Biro Kaa
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 999</b> 
+                                            <del class="regular-price">Ksh 1,799</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        27%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="new-arrivals-badge">
+                                        NEW
+                                    </div>
+                                </a> 
+                            </div>
+                            <div class="product-meta"><!-- single products-->
+                                <a href="#">
+                                    <div class="product-thumbnail">
+                                        <img src="/images/kids-bike-1.jpg" alt="">
+                                    </div>
+                                    <div class="product-title">
+                                        Sunlight 3.5kg Lavender
+                                    </div>
+                                    <div class="product-price">
+                                        <span>
+                                            <b class="sale-price">Ksh 299</b> 
+                                            <del class="regular-price">Ksh 579</del>
+                                        </span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <!-- <span class="number">(234)</span> -->
+                                    </div>
+                                    <div class="discount-percentage">
+                                        16%
+                                    </div>
+                                    <div class="wishlist-badge">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <!-- products pagination-->
+                    <div class="shop-products-pagination">
+                        <a class="back-btn page-btn"disabled>&laquo;</a>
+                        <a href="" class="active">1</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">4</a>
+                        <a href="">5</a>
+                        <a href="">6</a>
+                        <a href="" class="next-btn page-btn"><strong>&raquo;</strong></a>
+                    </div>    
+                </div>  
+            </div>
+        </section>
+    </main>
+    <!--- footer section -->
+    <footer>
+        <div class="desktop-footer">
+            <div class="footer-box">
+                <img src="/images/logo.png" alt=""><br>
+                <p>
+                    E-Store serves a retail-customer base that continues to grow exponentially, offering products that span various categories including Electronics such as smart phones, laptops, subwoofer etc, Clothing, Home Appliances, Fashion bag, Baby Products, makeup and much more. Kilimall continues to expand the mall, with the scope of offerings that will increase in variety, simplicity and convenience.
+                </p>
+            </div>
+            <div class="footer-box">
+                <h3>HELP & SUPPORT</h3>
+                <nav>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="">How To Shop</a></li>
+                    <li><a href="">Payment Instructions</a></li>
+                    <li><a href="">Pickup Stations</a></li>
+                    <li><a href="">Order Enquiry</a></li> 
+                    <li><a href="">Sell on E-Store</a></li>   
+                </nav>
+            </div>
+            <div class="footer-box">
+                <h3>ABOUT E-STORE</h3>
+                <nav>
+                    <li><a href="">About E-Store</a></li>
+                    <li><a href="">Call To Place an Order</a></li>
+                    <li><a href="">Email Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms & Condition</a></li>    
+                </nav>
+            </div>
+            <div class="footer-box">
+                <h3>MY ACCOUNT</h3>
+                <nav>
+                    <li><a href="">My profile</a></li>
+                    <li><a href="">My Orders</a></li>
+                    <li><a href="">My Cart</a></li>
+                    <li><a href="">My Downloads</a></li>
+                    <li><a href="">Report an issue</a></li>    
+                </nav>
+            </div>
+        </div>
+        <div class="mobile-footer">
+            <nav>
+                <li><a href="#"><i class="fa fa-home"></i></a></li>
+                <li><a href="#"><i class="fa fa-list"></i></a></li>
+                <li><a href="#/"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#/"><i class="far fa-user"></i></a></li>
+                <li onclick="toggle()"><a href="#/"><i class="fa fa-shopping-bag"></i></a></li>
+            </nav>
+        </div>
+    </footer>
+    <script src="/js/hidecart.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+           
+/* page footer / Mobile foooter / desktop footer / */
+body footer {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    background: var(--black);
+    color: var(--white);
+    padding: 10px 0px 20px 0px;
+    bottom: 0px;
+}
+
+/* desktop footer */
+footer .desktop-footer {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 1%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.desktop-footer .footer-box {
+    width: 18%;
+    align-self: flex-start;
+    height: auto;
+}
+.footer-box img {
+    width: 150px;
+}
+.footer-box p {
+    height: 100px;
+    overflow: hidden;
+    text-overflow:clip ;
+}
+.footer-box nav li {
+    font-size: 15px;
+    color: var(--light-grey);
+    display: flex;
+}
+.footer-box nav li:hover {
+    margin-left: 5px;
+}
+
+
+/* mobile footer */
+footer .mobile-footer nav{
+    display: none;
+}

@@ -1,0 +1,122 @@
+
+/* mini cart page */
+.mini-cart-container {
+    display: none;
+    justify-content: center;
+    width: 550px;
+    height: 100%;
+    padding: 0px 5px 10px 5px;
+    background: var(--white);
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    right: 0px;
+}
+.mini-cart-container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background: var(--light-white);
+    padding: 15px 10px;
+}
+.mini-cart-container .header b {
+    font-size: 18px;
+}
+.mini-cart-container .header i {
+    font-size: 20px;
+    cursor: pointer;
+}
+/* mini cart table */
+.mini-cart-container table {
+    width: 100%;
+    height: 100%;
+    border: 1px sold var(--grey);
+    border: none;
+}
+/*
+.mini-cart-container table tbody , .mini-cart-container tbody td{
+    background: var(--light-white);
+}
+*/
+.mini-cart-container table img {
+    width: 60px;
+    height: 60px;
+    align-self: flex-start;
+    margin-right: 10px;
+}
+.mini-cart-container table input {
+    display: block;
+    width: 50px;
+    padding: 5px;
+    border: 1px solid var(--grey);
+    display: none;
+}
+.mini-cart-container table .product-title  {
+    align-self: flex-start;
+    width: 70px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.mini-cart-container tbody , .mini-cart-container table tr{
+    width: 100%;
+}
+.mini-cart-container tbody td {
+    padding: 0 5px;
+    height: 60px;
+}
+.mini-cart-container table a {
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+===================================================== RESPONSIVE HOMEPAGE
+*/
+@media only screen and (max-width: 768px) {
+    ::-webkit-scrollbar {
+        width:2px;
+        height: 2px;
+        display: none;
+    }
+    ::-webkit-scrollbar-track {
+        background: var(--grey);
+    }
+    ::-webkit-scrollbar-thumb {
+        background:transparent; 
+    }
+}

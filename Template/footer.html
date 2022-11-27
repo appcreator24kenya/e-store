@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <meta name="description" content="E-Store serves a retail-customer base that continues to grow exponentially, offering products that span various categories including Electronics such as smart phones, laptops, subwoofer etc, Clothing, Home Appliances, Fashion bag, Baby Products, makeup and much more. Kilimall continues to expand the mall, with the scope of offerings that will increase in variety, simplicity and convenience.">
+    <meta name="keywords" content="E-Store ,  Books, Online Shopping, Book Store, Magazine, Subscription, Music, CDs, DVDs, Videos, Electronics, Video Games, Computers, Cell Phones, Toys, Games, Apparel, Accessories, Shoes, Jewelry, Watches, Office Products, Sports &amp; Outdoors, Sporting Goods, Baby Products, Health, Personal Care, Beauty, Home, Garden, Bed &amp; Bath, Furniture, Tools, Hardware, Vacuums, Outdoor Living, Automotive Parts, Pet Supplies, Broadband, DSL">
+    <meta name="author" content="Abraham Omondi">
+    <meta http-equiv="refresh" content="">
+    <script src="https://kit.fontawesome.com/7793339219.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/home.css">
+    <title>E-Store - Affordable Online Shopping</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <style>
+            
+/* page footer / Mobile foooter / desktop footer / */
+body footer {
+    width: 100%;
+    display: none;
+    height: auto;
+    background: var(--black);
+    color: var(--white);
+    padding: 10px 0;
+    bottom: 0px;
+}
+
+/* desktop footer */
+footer .desktop-footer {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 1%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.desktop-footer .footer-box {
+    width: 18%;
+    align-self: flex-start;
+    height: auto;
+}
+.footer-box img {
+    width: 150px;
+}
+.footer-box nav li {
+    font-size: 15px;
+    color: var(--light-grey);
+}
+
+
+/* mobile footer */
+footer .mobile-footer nav{
+    display: none;
+}
+        </style>
+    </main>
+
+    <footer>
+        <div class="desktop-footer">
+            <div class="footer-box">
+                <img src="/images/logo.png" alt=""><br>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi saepe quam sequi dolorem
+                </span>
+            </div>
+            <div class="footer-box">
+                <h3>HELP & SUPPORT</h3>
+                <nav>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="">Get Support</a></li>
+                    <li><a href="">How To Shop</a></li>
+                    <li><a href="">Payment Instructions</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>    
+                </nav>
+            </div>
+            <div class="footer-box">
+                <h3>ABOUT E-STORE</h3>
+                <nav>
+                    <li><a href="">About E-Store</a></li>
+                    <li><a href="">Call To Place an Order</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms & Condition</a></li>    
+                </nav>
+            </div>
+            <div class="footer-box">
+                <h3>MY ACCOUNT</h3>
+                <nav>
+                    <li><a href="">My profile</a></li>
+                    <li><a href="">My Orders</a></li>
+                    <li><a href="">My Cart</a></li>
+                    <li><a href="">My Downloads</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>    
+                </nav>
+            </div>
+        </div>
+        <div class="mobile-footer">
+            <nav>
+                <li><a href="#"><i class="fa fa-home"></i></a></li>
+                <li><a href="#"><i class="fa fa-list"></i></a></li>
+                <li><a href="#/"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#/"><i class="far fa-user"></i></a></li>
+                <li onclick="toggle()"><a href="#/"><i class="fa fa-shopping-bag"></i></a></li>
+            </nav>
+        </div>
+    </footer>
+    <!-- <footer>
+        <!-- desktop footer design--
+        <div class="desktop-footer">
+            <div class="footer-box">
+                <img src="/images/logo.png" alt=""><br>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi saepe quam sequi dolorem
+                </span>
+            </div>
+            <div class="footer-box">
+                <h3>HELP & SUPPORT</h3>
+                <nav>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="">Get Support</a></li>
+                    <li><a href="">How To Shop</a></li>
+                    <li><a href="">Payment Instructions</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>    
+                </nav>
+            </div>
+            <div class="footer-box">
+                <h3>ABOUT E-STORE</h3>
+                <nav>
+                    <li><a href="">About E-Store</a></li>
+                    <li><a href="">Call To Place an Order</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms & Condition</a></li>    
+                </nav>
+            </div>
+            <div class="footer-box">
+                <h3>MY ACCOUNT</h3>
+                <nav>
+                    <li><a href="">My profile</a></li>
+                    <li><a href="">My Orders</a></li>
+                    <li><a href="">My Cart</a></li>
+                    <li><a href="">My Downloads</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>    
+                </nav>
+            </div>
+        </div>
+        <div class="mobile-footer">
+            <nav>
+                <li><a href="#"><i class="fa fa-home"></i></a></li>
+                <li><a href="#"><i class="fa fa-list"></i></a></li>
+                <li><a href="#/"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#/"><i class="far fa-user"></i></a></li>
+                <li onclick="toggle()"><a href="#/"><i class="fa fa-shopping-bag"></i></a></li>
+            </nav>
+        </div>
+    </footer> -->
+</body>
+</html>

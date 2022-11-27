@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <meta name="description" content="E-Store serves a retail-customer base that continues to grow exponentially, offering products that span various categories including Electronics such as smart phones, laptops, subwoofer etc, Clothing, Home Appliances, Fashion bag, Baby Products, makeup and much more. Kilimall continues to expand the mall, with the scope of offerings that will increase in variety, simplicity and convenience.">
+    <meta name="keywords" content="E-Store ,  Books, Online Shopping, Book Store, Magazine, Subscription, Music, CDs, DVDs, Videos, Electronics, Video Games, Computers, Cell Phones, Toys, Games, Apparel, Accessories, Shoes, Jewelry, Watches, Office Products, Sports &amp; Outdoors, Sporting Goods, Baby Products, Health, Personal Care, Beauty, Home, Garden, Bed &amp; Bath, Furniture, Tools, Hardware, Vacuums, Outdoor Living, Automotive Parts, Pet Supplies, Broadband, DSL">
+    <meta name="author" content="Abraham Omondi">
+    <meta http-equiv="refresh" content="">
+    <script src="https://kit.fontawesome.com/7793339219.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/home.css">
+    <title>E-Store - Affordable Online Shopping</title>
+</head>
+<body>
+    <!---header section -->
+    <header>
+        <div class="top-header">
+            <div class="other">
+                <b>Language <i class="fa fa-angle-down"></i></b>
+                <b><i class="fa-solid fa-dollar-sign"></i> Currency <i class="fa fa-angle-down"></i></b>
+            </div>
+            <div class="social-icons">
+                <b><i class="fa fa-facebook"></i></b>
+                <b><i class="fa fa-twitter"></i></b>
+                <b><i class="fa fa-instagram"></i></b>
+                <b><i class="fa fa-youtube"></i></b>
+            </div>
+        </div>
+        <div class="middle-header">
+            <div class="logo">
+                <a href="/">
+                    <img src="/images/logo.png" alt="">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#/">About Us</a></li>
+                <li><a href="#/">Contact Us</a></li>
+                <li><a href="#/">Help</a></li>
+            </ul>
+            <div class="other">
+                <li><a href="#/"><i class="fa fa-heart"></i>(<span class="badgee">4</span>)</a></li>
+                <li><a href="#/"><i class="far fa-user"></i></a></li>
+                <li class="fa-cart" onclick="toggle()"><a href="#/"><i class="fa fa-shopping-bag"></i>($50.00)</a></li>
+            </div>
+        </div>
+    </header>
+
+    <!-- main body section -->
+    <main>
+
+        <!-- mini cart page -->
+        <div class="mini-cart-container"id="hidecart">
+            <div class="header">
+                <div><b>My Cart</b></div>
+                <div><i class="fa fa-circle-xmark"onclick="toggle()"></i> </div>
+            </div>
+            <div class="mini-cart-details">
+                <table>
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="/images/fresh-fry.jpg" alt=""></td>
+                            <td class="product-title">Fresh Fry 3.5 Litres </td>
+                            <td><b>Ksh.799</b></td>
+                            <td><input type="number" name="quantity" value="1"></td>
+                            <td><a href=""><i class="fa fa-circle-xmark"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/dell.jpg" alt=""></td>
+                            <td class="product-title">Lorem ipsum dolor sit amet </td>
+                            <td><b>Ksh.799</b></td>
+                            <td><input type="number" name="quantity" value="1"></td>
+                            <td><a href=""><i class="fa fa-circle-xmark"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/mens-hoodie.jpg" alt=""></td>
+                            <td class="product-title">Lorem ipsum dolor sit amet </td>
+                            <td><b>Ksh.799</b></td>
+                            <td><input type="number" name="quantity" value="1"></td>
+                            <td><a href=""><i class="fa fa-circle-xmark"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/iron.jpg" alt=""></td>
+                            <td class="product-title">Lorem ipsum dolor sit amet consectetur </td>
+                            <td><b>Ksh.799</b></td>
+                            <td><input type="number" name="quantity" value="1"></td>
+                            <td><a href=""><i class="fa fa-circle-xmark"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/galaxy-a13.jpg" alt=""></td>
+                            <td class="product-title">Lorem ipsum dolor</td>
+                            <td><b>Ksh.799</b></td>
+                            <td><input type="number" name="quantity" value="1"></td>
+                            <td><a href=""><i class="fa fa-circle-xmark"></i></a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td><b>TOTAL</b></td>
+                            <td><b>Ksh 2,345</b></td>
+                            <td><a href=""></a></td>
+                        </tr>
+                    </tfoot>
+                </table>
+               <!---- <button type="submit">CHECKOUT</button> -->
+            </div>
+        </div>
+    </main>
+    <script src="/js/hidecart.js"></script>
+</body>
+</html>
